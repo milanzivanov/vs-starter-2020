@@ -1,0 +1,23 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  background-color: indianred;
+  color: #fff;
+}
+
+/* ----------------- Media queris
+----------------------------------------------------------------------- */
+/*# sourceMappingURL=style.css.map */
