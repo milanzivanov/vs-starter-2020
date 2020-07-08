@@ -1,1 +1,5 @@
-console.log("WORKING");
+$(document).ready(function() {
+    'use strict';
+    
+    console.log("WORKING");
+});
