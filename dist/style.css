@@ -1,3 +1,5 @@
+/* ----------------- Media queris
+----------------------------------------------------------------------- */
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -18,6 +20,27 @@ body {
   color: #fff;
 }
 
-/* ----------------- Media queris
------------------------------------------------------------------------ */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: springgreen;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: green;
+  }
+}
 /*# sourceMappingURL=style.css.map */

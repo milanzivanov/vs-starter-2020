@@ -14,4 +14,18 @@ body {
     padding: 0;
     background-color: indianred;
     color: #fff;
+
+    @include breakpoint(large-screens) {
+        background-color: yellowgreen;
+    }
+    @include breakpoint(desktop) {
+        background-color: springgreen;
+    }
+    @include breakpoint(tablet) {
+        background-color: blue;
+    }
+    @include breakpoint(mobile) {
+        background-color: green;
+    }
+
 }
