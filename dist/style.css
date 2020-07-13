@@ -20,9 +20,15 @@ body {
   color: #fff;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+@media only screen and (min-width: 1367px) {
   body {
     background-color: yellowgreen;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  body {
+    background-color: blueviolet;
   }
 }
 

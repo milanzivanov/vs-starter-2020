@@ -15,16 +15,19 @@ body {
     background-color: indianred;
     color: #fff;
 
-    @include breakpoint(large-screens) {
+    @include breakpoint(ls) {
         background-color: yellowgreen;
     }
-    @include breakpoint(desktop) {
+    @include breakpoint(l) {
+        background-color: blueviolet;
+    }
+    @include breakpoint(d) {
         background-color: springgreen;
     }
-    @include breakpoint(tablet) {
+    @include breakpoint(t) {
         background-color: blue;
     }
-    @include breakpoint(mobile) {
+    @include breakpoint(m) {
         background-color: green;
     }
 
